@@ -48,7 +48,7 @@ When using the Wormhole Queries TS-SDK, you may encounter various error codes. H
 - 401 - authorization required (missing API key)
 - 403 - forbidden (invalid API key)
 - 500 - [future] failed to reach consensus (e.g. received 14 responses but 7 with one result and 7 with another)
-- 504 - did not reach consensus in < 1m. The network is designed to drop malformed requests, so if you are seeing a consistent 504 error, your query request is likely invalid or structured incorrectly.
+- 504 - did not reach consensus in < 1m. The network drops malformed requests, so a persistent 504 is likely due to an invalid query request.
 
 If you encounter any of these errors, double-check your API key, ensure your input is correctly formatted, and verify your network connection.
 
