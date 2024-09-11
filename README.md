@@ -39,5 +39,14 @@ Ensure you have the following installed on your system:
 ## Running one of the Scripts
 
    ```bash
-   QUERIES_API_KEY=<YOUR_QUERIES_API_KEY> npx tsx query-sepolia.ts
+   QUERIES_API_KEY=<YOUR_QUERIES_API_KEY> npx tsx query_usdc_sep.ts
    ```
+
+## Error Handling
+When using the Wormhole Queries TS-SDK, you may encounter various error codes. Here's what they mean:
+- 400 - bad request (malformed input or bytes)
+- 401 - authorization required (missing API key)
+- 403 - forbidden (invalid API key)
+- 500 - [future] failed to reach consensus (e.g. received 14 responses but 7 with one result and 7 with another)
+- 504 - did not reach consensus in < 1m
+If you encounter any of these errors, double-check your API key, ensure your input is correctly formatted, and verify your network connection. If problems persist, you may need to contact the Wormhole support team for further assistance.
