@@ -53,4 +53,4 @@ If you encounter any of these errors, double-check your API key, ensure your inp
 
 ## Further Reading
 To gain a deeper understanding of Wormhole Queries and its underlying concepts, we recommend reading the comprehensive [whitepaper](https://github.com/wormhole-foundation/wormhole/blob/main/whitepapers/0013_ccq.md#cross-chain-queries-ccq).
-This whitepaper provides in-depth information about the architecture, security model, and implementation details of the Wormhole Queries system.
+This whitepaper provides in-depth information about the architecture, security considerations, and implementation details of Wormhole Cross-chain Queries.
